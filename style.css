@@ -1,5 +1,37 @@
+section {
+  padding: 60px 0;
+}
+
 /* About */
 .row {
   align-items: center;
+  padding-bottom: 50px;
 }
+
+/* Why Us */
+
 /* About Done */
+
+/* Menu */
+section#menu {
+  padding-top: 50px;
+}
+/* Menu done */
+
+/* Specials */
+
+/* specials done */
+
+/* Events */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #41464b;
+}
+.carousel-indicators {
+  margin-bottom: -1rem;
+}
+/* Events done */
