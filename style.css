@@ -2,8 +2,12 @@ section {
   padding: 60px 0;
 }
 
+.heads {
+  padding-bottom: 30px;
+}
+
 /* About */
-.row {
+#about .row {
   align-items: center;
   padding-bottom: 50px;
 }
@@ -35,3 +39,102 @@ section#menu {
   margin-bottom: -1rem;
 }
 /* Events done */
+
+/* Reservation */
+
+#book-a-table div.col-lg-4 {
+  margin-bottom: 25px;
+}
+
+#book-a-table div.row {
+  padding-bottom: 0;
+}
+
+button.book-a-table-btn {
+  background: #cda45e;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+/* Reservatio done */
+
+/* Testimonials */
+section#testimonials {
+  min-height: auto;
+}
+
+.testimonial-img {
+  width: 90px;
+  border-radius: 50%;
+  margin: -40px 0 0 40px;
+  position: relative;
+  z-index: 2;
+  border: 6px solid rgba(255, 255, 255, 0.2);
+}
+
+#testimonials p {
+  font-style: italic;
+  margin: 0 15px 0 15px;
+  padding: 20px 20px 60px 20px;
+  background: #26231d;
+  position: relative;
+  border-radius: 6px;
+  position: relative;
+  z-index: 1;
+}
+
+/* tesimonilas done */
+
+/* gallery */
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+section#gallery .col-lg-3 {
+  padding-left: 0;
+  padding-right: 0;
+  border-right: 3px solid #454035;
+  border-bottom: 3px solid #454035;
+}
+
+/* gallery done */
+
+/* Chefs */
+.staff {
+  position: relative;
+}
+
+.staff-details {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.staff:hover .staff-details {
+  opacity: 1;
+}
+/* chefs done */
+
+/* contact */
+iframe {
+  width: 100%;
+}
+/* contact done */
